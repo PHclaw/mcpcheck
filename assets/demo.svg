@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="548" viewBox="0 0 900 548" role="img" aria-label="mcpcheck demo">
+  <defs>
+    <clipPath id="typing">
+      <rect x="36" y="64" width="0" height="22">
+        <animate attributeName="width" values="0;0;281.2;281.2;0" keyTimes="0;0.01;0.15;0.955;1" dur="10s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect width="900" height="548" rx="12" fill="#0D1117"/>
+  <rect x="0.5" y="0.5" width="899" height="547" rx="12" fill="none" stroke="#30363D"/>
+
+  <path d="M0 12a12 12 0 0 1 12-12h876a12 12 0 0 1 12 12v30H0z" fill="#161B22"/>
+  <circle cx="26" cy="26" r="6" fill="#F85149"/>
+  <circle cx="48" cy="26" r="6" fill="#D29922"/>
+  <circle cx="70" cy="26" r="6" fill="#3FB950"/>
+  <text x="450" y="31" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#6E7681">mcpcheck — audit</text>
+  <line x1="0" y1="42" x2="900" y2="42" stroke="#30363D"/>
+
+  <text x="36" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#3FB950" xml:space="preserve">$ </text>
+  <g clip-path="url(#typing)">
+    <text x="52.8" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#E6EDF3">mcpcheck -- node ./my-server.js</text>
+  </g>
+  <rect x="316.2" y="67" width="8" height="15" fill="#E6EDF3">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+    <text x="36" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#E6EDF3" xml:space="preserve">mcpcheck 0.1.0 · audit<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1600;0.1620;0.955;1" dur="10s" repeatCount="indefinite"/></text>
+    <text x="36" y="160" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" fill="#8B949E" xml:space="preserve">  target   node ./my-server.js<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1950;0.1970;0.955;1" dur="10s" repeatCount="indefinite"/></text>
+    <text x="36" y="184" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" fill="#8B949E" xml:space="preserve">  server   demo-server 1.0.0<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2100;0.2120;0.955;1" dur="10s" repeatCount="indefinite"/></text>
+    <text x="36" y="208" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" fill="#8B949E" xml:space="preserve">  timing   init 34ms · total 210ms<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2250;0.2270;0.955;1" dur="10s" repeatCount="indefinite"/></text>
+    <text x="36" y="256" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#E6EDF3" xml:space="preserve">CONTEXT MANIFEST<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2600;0.2620;0.955;1" dur="10s" repeatCount="indefinite"/></text>
+    <text x="36" y="280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" fill="#6E7681" xml:space="preserve">  surface           items      size   tokens   share<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2750;0.2770;0.955;1" dur="10s" repeatCount="indefinite"/></text>
+    <text x="36" y="304" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" fill="#E6EDF3" xml:space="preserve">  tools/list            3    4.0 KB    1,037    0.5%<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2900;0.2920;0.955;1" dur="10s" repeatCount="indefinite"/></text>
+    <text x="36" y="328" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" fill="#8B949E" xml:space="preserve">  total                      4.3 KB    1,097    0.5%<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3050;0.3070;0.955;1" dur="10s" repeatCount="indefinite"/></text>
+    <text x="36" y="376" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#E6EDF3" xml:space="preserve">ISSUES 6<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3400;0.3420;0.955;1" dur="10s" repeatCount="indefinite"/></text>
+    <text x="36" y="400" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" fill="#F85149" xml:space="preserve">  ERR   tool-description-missing<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3550;0.3570;0.955;1" dur="10s" repeatCount="indefinite"/></text>
+    <text x="36" y="424" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" fill="#6E7681" xml:space="preserve">        no description, so the model can only guess<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3700;0.3720;0.955;1" dur="10s" repeatCount="indefinite"/></text>
+    <text x="36" y="448" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" fill="#D29922" xml:space="preserve">  WARN  tool-schema-deep<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3850;0.3870;0.955;1" dur="10s" repeatCount="indefinite"/></text>
+    <text x="36" y="472" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" fill="#6E7681" xml:space="preserve">        schema nests 8 levels deep<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4000;0.4020;0.955;1" dur="10s" repeatCount="indefinite"/></text>
+    <text x="36" y="520" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" fill="#F85149" xml:space="preserve">verdict  1 error(s), 5 warning(s)<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4350;0.4370;0.955;1" dur="10s" repeatCount="indefinite"/></text>
+</svg>

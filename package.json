@@ -1,0 +1,41 @@
+{
+  "name": "mcpcheck",
+  "version": "0.1.0",
+  "description": "Measure what an MCP server costs an agent: per-tool token weight, schema bloat, description gaps, stdout hygiene — plus a proxy that caps oversized tool output.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "lint",
+    "audit",
+    "context-window",
+    "tokens",
+    "proxy",
+    "testing",
+    "ai-agent",
+    "developer-tools"
+  ],
+  "license": "MIT",
+  "author": "PHclaw",
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "mcpcheck": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "assets",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"",
+    "test": "npm run build && node scripts/smoke.js",
+    "smoke": "node scripts/smoke.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  }
+}
